@@ -1,0 +1,331 @@
+/* index */
+
+/* BODY */
+
+body {
+    background-color: #F3F3F3;
+    font-family: 'Nunito Sans';
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-family: 'Nunito Sans';
+}
+
+/* MAIN */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.bannerSuperior {
+    width: 100%;
+}
+
+.banner1 {
+    position: relative;
+}
+
+
+.tituloBanner {
+    size: 40px;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+}
+
+.textoBanner {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.mapa {
+    width: 100%;
+    height: 100%;
+}
+
+.tarjeta {
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+
+}
+
+.tituloDestinos {
+    margin-top: 80px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.textoDestinos {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tarjeta p {
+    justify-content: start;
+    text-align: center;
+    background-color: darkslategrey;
+    color: azure;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 93%;
+}
+
+.destinos p {
+    background-color: darkslategrey;
+    color: cornsilk;
+    text-align: center;
+}
+
+.vinculo {
+
+    align-self: center;
+    background-color: darkslategrey;
+    color: cornsilk;
+    margin: 20px;
+}
+
+.vinculo a {
+    text-decoration: none;
+    color: cornsilk;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+    font-family: 'Nunito Sans';
+}
+
+footer h3 {
+    font-size: 16px;
+}
+
+/* CALENDARIO */
+
+.mainCalendario {
+    margin: 60px;
+}
+
+.encabezadoCalendario h1 {
+    margin: 4vh;
+}
+
+.contenedorCalendario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.tarjetaCalendario {
+    max-width: 280px;
+    justify-content: stretch;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.imagenCalendario {
+    max-width: 100%;
+}
+
+.tarjetaCalendario p {
+    margin: 5px 0;
+    font-size: 15px;
+    background-color: orangered;
+    color: cornsilk;
+    text-align: center;
+}
+
+
+/* GALERIA */
+
+.encabezadoGaleria {
+    margin: 20px 0px;
+}
+
+.contenedorGaleria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-left: 50Px;
+    margin-right: 50Px;
+}
+
+.tarjetaGaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 211, 211);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.tarjetaGaleria img {
+    max-width: 100%;
+    height: auto;
+}
+
+.baseGaleria {
+    margin: 1px 60px;
+}
+
+
+/* CONTACTO */
+
+.botonFormulario {
+    background-color: darkslategrey;
+    color: #ccc
+}
+
+.tituloContacto {
+    margin: 25px;
+}
+
+.itemContacto h3 {
+    margin-top: 25px;
+}
+
+.imgContacto {
+    width: 370px;
+    height: auto;
+}
+
+.imgContacto {
+    display: block;
+    margin: auto;
+}
+
+.accordion{
+--bs-accordion-btn-focus-box-shadow: none;
+--bs-accordion-active-bg: darkslategrey;
+--bs-accordion-active-color: #ccc;
+}
+
+
+/* NOSOTROS */
+
+.encabezadoNosotros{
+    margin: 20px;
+}
+
+.contenedorNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.tarjetaNosotros {
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.tarjetaNosotros p {
+    text-align: center;
+}
+
+.grupoEleccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 50Px;
+    margin-right: 50Px;
+}
+
+.contenedorRazonesEleccion p {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.tarjetaEleccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.imgElegirnos {
+    width: 75px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------------------------------------*/
+
+@media (max-width:1023px) {
+
+    /* Galeria */
+    .contenedorGaleria {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 20px;
+        gap: 15px;
+    }
+
+    /* Nosotros */
+    .grupoEleccion {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* Vista móvil*/
+
+@media (max-width:420px) {
+
+    /* Galeria */
+    .contenedorGaleria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grupoEleccion {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedorNosotros {
+        margin: 20px;
+    }
+}
